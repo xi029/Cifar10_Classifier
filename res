@@ -1,0 +1,1 @@
+Test Loss: 0.196, Test Acc: 95.040%
