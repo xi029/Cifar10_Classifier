@@ -1,14 +1,10 @@
-以下是你的 `README.md` 文件内容，你可以直接复制到你的 GitHub 项目中：
-
-------
-
-# 基于Streamlit的CIFAR-10分类器
+# 基于 Streamlit 的 CIFAR-10 分类器
 
 ## 1. 项目简介
 
 本项目是一个基于深度学习的图像分类 Web 应用，使用 CIFAR-10 数据集训练了一个 DLA 模型，并通过 Streamlit 部署。用户可以通过 Web 界面上传图片，并实时查看分类结果。
 
-------
+## ![image](image/img.png)
 
 ## 2. 安装与部署
 
@@ -37,11 +33,11 @@ pip install -r requirements.txt
 
 - 若有其他需求（如缺少某些依赖），请手动更新 `requirements.txt` 并重新安装依赖。
 
-- 若需 GPU 加速，请确保安装正确版本的 
+- 若需 GPU 加速，请确保安装正确版本的
 
   CUDA
 
-   和 
+  和
 
   cuDNN
 
@@ -61,7 +57,7 @@ mkdir -p checkpoint/DLANet
 # 手动复制 best.pth 到该目录
 ```
 
-------
+---
 
 ## 3. 运行程序
 
@@ -85,7 +81,7 @@ streamlit run app.py
 http://localhost:8501
 ```
 
-------
+---
 
 ## 4. 应用功能与使用说明
 
@@ -100,7 +96,7 @@ http://localhost:8501
 2. 点击上传按钮，选择待分类的图片。
 3. 模型加载后自动进行分类，并在界面显示预测类别及概率分布。
 
-------
+---
 
 ## 5. 依赖库（`requirements.txt`）
 
@@ -116,6 +112,6 @@ pandas==2.2.1
 tqdm==4.65.2
 ```
 
-------
+---
 
 🚀 **欢迎 Star & Fork 支持本项目！** 🎉
